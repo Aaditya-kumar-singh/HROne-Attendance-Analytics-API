@@ -1,0 +1,19 @@
+# Local secrets and environment configuration
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Local editor/tool recovery artifacts
+.mcp-backups/
